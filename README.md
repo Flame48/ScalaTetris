@@ -2,10 +2,10 @@
 
 This is my first little venture into programming with Scala, where I decided to make terminal tetris!
 The controls are WASD:
-W -> Rotate
-A -> Move Left
-S -> Soft Drop
-D -> Move Right
+- W -> Rotate
+- A -> Move Left
+- S -> Soft Drop
+- D -> Move Right
 
 ## Contact
 
