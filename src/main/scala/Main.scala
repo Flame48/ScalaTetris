@@ -39,7 +39,7 @@ object Main {
     val board = new GameBoard(boardDims.x, boardDims.y, pocket)
 
     val screen = new Screen(
-      boardRectangle.union(pocketRectangle)
+      boardRectangle.union(pocketRectangle).extend((2, 2))
     )
 
     @volatile var running = true

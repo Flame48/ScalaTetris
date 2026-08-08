@@ -74,6 +74,9 @@ case class Rectangle(coord: Coord, width: Int, height: Int) {
       Math.max(w.maxX, maxX) - Math.min(w.minX, minX),
       Math.max(w.maxY, maxY) - Math.min(w.minY, minY)
     )
+
+  def extend(by: Coord): Rectangle =
+    Rectangle(coord, width + by.x, height + by.y)
 }
 
 object Logger {
